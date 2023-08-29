@@ -1,0 +1,153 @@
+
+.wrapper {
+    position: relative;
+  }
+  
+  .container {
+    position: relative;
+  }
+ 
+  .right {
+    position: relative;
+  }
+  .left{
+    position: relative;
+  }
+  
+
+  .alert {
+    position: absolute;
+    top: 20%;
+    left:0;
+  }
+
+  .promo {
+    position: absolute;
+    top: 100%;
+    left: 43.5%;
+  }
+ 
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9d0d0;
+  }
+  
+  .wrapper {
+    background-color: #e9d0d0;
+    padding: 20px;
+  }
+  
+.wrapper h1{
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: underline black solid 3px;
+    color: chocolate;
+    text-transform: uppercase;
+  }
+
+  .wrapper p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline #777 dashed 3px;
+    color:rgb(123, 35, 35);
+  }
+
+  .wrapper a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #93e5ee;
+    padding: 10px;
+  }
+
+  .content h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: underline black solid 3px;
+    color: rgb(122, 122, 224);
+  }
+
+  .left h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: underline black solid 3px;
+    color: rgb(122, 122, 224);
+  }
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #777;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left {
+    flex: 33.33%;
+    padding: 5px;
+    margin:10px;
+  }
+  
+  .right{
+    flex: 33.33%;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  .left {
+    background-color: #eba6a6;
+  }
+  
+  .right {
+    background-color: #eba6a6;
+  }
+  
+  .content {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+    
+  }
+  
+  .alert button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .promo button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
